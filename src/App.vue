@@ -8,6 +8,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "HelloWorld",
+  props: {
+    msg: String,
+  },
+
+};
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
